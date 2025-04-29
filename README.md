@@ -9,7 +9,7 @@ Ce site présente mon parcours académique, mes expériences et mes projets.
 🗣️ Délégué I2 T2 et I2 G2  
 🌍 Passionné d'IA
 
-🔗 [Voir le site en ligne](https://alexandresintes.github.io)
+🔗 [Voir le site en ligne](https://alexandresintes.github.io/alexandre-sintes.github.io/)
 
 ---
 
