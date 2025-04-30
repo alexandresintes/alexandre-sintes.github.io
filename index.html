@@ -1,121 +1,294 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Site officiel de Alexandre Sintes - Étudiant à l'ISEP, passionné de technologie, robotique et innovation.">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Site officiel de Alexandre Sintes" />
   <title>Alexandre Sintes</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="favicon.png" />
 </head>
 
 <body>
+  <!-- Sélecteur thème/couleurs -->
+  <div class="theme-selector">
+    <button id="toggle-theme" title="Changer le thème">🌓</button>
+    <div class="color-picker">
+      <span data-color="#ff00ae" style="background:#ff00ae;"></span>
+      <span data-color="#00BFFF" style="background:#00BFFF;" class="active"></span>
+      <span data-color="#32CD32" style="background:#32CD32;"></span>
+      <span data-color="#4169E1" style="background:#4169E1;"></span>
+      <span data-color="#9e41e1" style="background:#9e41e1;"></span>
+      <span data-color="#d21626" style="background:#d21626;"></span>
+    </div>
+  </div>
   <header>
     <div class="container">
-      <h1>Alexandre Sintes</h1>
-      <p>Étudiant à l'ISEP | Stagiaire chez Ampere | Passionné d'Intelligence Artificielle</p>
+      <h1>Alexandre Sintes (he/him)</h1>
+      <p>Étudiant à l'ISEP | Délégué | Stagiaire chez Ampere | Passionné de Robotique & IA</p>
       <nav>
-        <a href="#about">À propos</a>
+        <a href="#about">A propos</a>
         <a href="#education">Formation & Diplômes</a>
         <a href="#experience">Expériences</a>
         <a href="#projects">Projets</a>
         <a href="#skills">Compétences</a>
+        <a href="#technologies">Technologies</a>
+        <a href="#languages">Langues</a>
+        <a href="#countries">Pays visités</a>
         <a href="#contact">Contact</a>
+        <a href="#Sports">Sports pratiqués</a>
       </nav>
+      <div class="ribbon">
+        <div class="ribbon-track">
+          <img src="logo_matlab.png" alt="MATLAB" class="ribbon-logo">
+          <img src="logo_simulink.png" alt="Simulink" class="ribbon-logo">
+          <img src="intel_logo.png" alt="Intel Quartus" class="ribbon-logo">
+          <img src="logo_linux.png" alt="Windows / Ubuntu" class="ribbon-logo">
+          <img src="logo_cpp.png" alt="C++" class="ribbon-logo">
+          <img src="ros2_logo.png" alt="ROS2" class="ribbon-logo">
+          <img src="logo_python.png" alt="Python" class="ribbon-logo">
+          <img src="logotkintersanqsofnd.png" alt="Tkinter" class="ribbon-logo">
+          <img src="GitHub-Logo.png" alt="GitHub" class="ribbon-logo">
+          <img src="logo_vscode.png" alt="VSCode" class="ribbon-logo">
+          <img src="logo_html.png" alt="HTML" class="ribbon-logo">
+          <img src="logo_css.png" alt="CSS" class="ribbon-logo">
+          <img src="microsoft_office.png" alt="Microsoft Office" class="ribbon-logo">
+          <img src="geogebra_logo.png" alt="GeoGebra" class="ribbon-logo">
+          <img src="logisim_logo.png" alt="Logisim" class="ribbon-logo">
+          <img src="canva_logo.png" alt="Canva" class="ribbon-logo">
+          <!-- DUPLIQUER pour remplir et boucler proprement -->
+          <img src="logo_matlab.png" alt="MATLAB" class="ribbon-logo">
+          <img src="logo_simulink.png" alt="Simulink" class="ribbon-logo">
+          <img src="intel_logo.png" alt="Intel Quartus" class="ribbon-logo">
+          <img src="logo_linux.png" alt="Windows / Ubuntu" class="ribbon-logo">
+          <img src="logo_cpp.png" alt="C++" class="ribbon-logo">
+          <img src="ros2_logo.png" alt="ROS2" class="ribbon-logo">
+          <img src="logo_python.png" alt="Python" class="ribbon-logo">
+          <img src="logotkintersanqsofnd.png" alt="Tkinter" class="ribbon-logo">
+        </div>
+      </div>
     </div>
   </header>
 
   <main class="container">
     <section id="about">
-      <h2>À propos de moi</h2>
-      <p>Je m'appelle Alexandre Sintes. Étudiant en deuxième année du cycle préparatoire intégré international à l'ISEP (Institut Supérieur de l'Électronique de Paris), je suis passionné par la technologie, l'innovation et la création de projets robotiques et informatiques.</p>
-      <p>Originaire du Lycée Stanislas à Cannes, je poursuis aujourd'hui mes études d'ingénieur avec une forte implication dans mes projets personnels et académiques. Mon engagement se traduit également dans mon rôle de délégué étudiant et mes diverses expériences professionnelles.</p>
+      <h2>A propos de moi</h2>
+      <p>Je suis Alexandre Sintes, étudiant en deuxième année du cycle préparatoire intégré international à l'ISEP. Passionné de technologie, robotique, et projets innovants, je suis engagé dans le développement de solutions techniques et la communication scientifique.</p>
+      <p>Date de naissance : 14/11/2005 ; Signe astrologique : Scoprion</p>
     </section>
 
-    <div class="imagess"> 
-        <img src="nao_robot.png" alt="Robot Nao" class="imagess">
+    <div class="robot-left">
+        <img src="nao_robot.png" alt="Robot Nao">
+      </div>
+      <div class="photo-right">
+        <img src="photo_alex.jpeg" alt="Photo d'Alexandre">
       </div>
 
-    <section id="education">
-      <h2>Formation & Diplômes</h2>
-
-
-
-
-
-        <div class="logos">
-          <img src="images/logo_isep.png" alt="Logo ISEP" class="school-logo">
-          <img src="images/logostanislascannes.png" alt="Logo Lycée Stanislas Cannes" class="school-logo">
-          <img src="images/logo_lochabair.jpeg" alt="Logo Lochabair" class="school-logo">
-        </div>
-
-
-
-      
-        <ul>
-          <li><strong>2023 - Aujourd'hui :</strong> Cycle Préparatoire Intégré International, ISEP (Paris)</li>
-          <li><strong>2022 :</strong> Baccalauréat Scientifique, Lycée Stanislas (Cannes)</li>
-          <!-- <img src="french_flag.png" alt="Logo Drapeau francais" class="imagess"> -->
-        </ul>
-      </section>
-      
       <ul>
-        <li><strong>2023 - Aujourd'hui :</strong> Cycle Préparatoire Intégré International, ISEP (Paris)</li>
-        <li><strong>2022 :</strong> Baccalauréat Scientifique, Lycée Stanislas (Cannes)</li>
-        <li><strong>2019 :</strong> Diplôme National du Brevet (DNB)</li>
-        <li><strong>2022 :</strong> Code de la Route (Certifié)</li>
-        <li><strong>2022 :</strong> Journée Défense et Citoyenneté (JDC) validée</li>
-        <li><strong>2020 :</strong> 2ᵉ place au Concours Géophile (géographie)</li>
+        <h2>Formation</h2>
+        <div class="timeline-horizontal">
+            <div class="timeline-step">
+              <a href="https://www.assomption-lochabair.fr/" target="_blank" class="timeline-link">
+                École primaire<br>Assomption Lochabair
+              </a>
+              <div class="timeline-line"></div>
+              <div class="timeline-date">2009 - 2016</div>
+            </div>
+            <div class="timeline-step">
+              <a href="https://stanislas-cannes.com/" target="_blank" class="timeline-link">
+                Lycée Stanislas Cannes
+              </a>
+              <div class="timeline-line"></div>
+              <div class="timeline-date">2016 - 2023</div>
+            </div>
+            <div class="timeline-step">
+              <a href="https://www.isep.fr/" target="_blank" class="timeline-link">
+                ISEP – I1<br>(cycle intégré international)
+              </a>
+              <div class="timeline-line"></div>
+              <div class="timeline-date">2023 - 2024</div>
+            </div>
+            <div class="timeline-step">
+              <a href="https://www.isep.fr/" target="_blank" class="timeline-link">
+                ISEP – I2<br>(cycle intégré international)
+              </a>
+              <div class="timeline-line"></div>
+              <div class="timeline-date">2024 - 2025</div>
+            </div>
+          </div>                           
+        <li><strong>2023 - Aujourd'hui :</strong> Cycle Préparatoire Intégré International, ISEP Paris</li>
+        <li><strong>2022 :</strong> Baccalauréat Général, Lycée Stanislas Cannes (Spécialités : Mathématiques, Physique-Chimie)</li>
+        <li><strong>2019 :</strong> Diplôme National du Brevet - mention bien</li>
+        <li><strong>Certifications :</strong> PIX, Certification Voltaire (679/1000), TOEIC (700/1000)</li>
+        <li><strong>Autres :</strong> Code de la route, Certification à la JDC</li>
       </ul>
     </section>
 
     <section id="experience">
       <h2>Expériences Professionnelles</h2>
-      <ul>
-        <li><strong>Avril 2025 - Aujourd'hui :</strong> Stagiaire chez Ampere</li>
-        <li><strong>Été 2023 :</strong> Adjoint Administratif à la Médiathèque du Cannet (CDD 2 mois)</li>
-        <li><strong>2022-2023 :</strong> Participant à l’Euro Parlement (débats en anglais, simulation du Parlement Européen)</li>
-        <li><strong>2023-2024 :</strong> Délégué des promotions I2 T2 et I2 G2 à l'ISEP</li>
-      </ul>
+      <div class="timeline-horizontal experience-timeline">
+        <div class="timeline-step">
+          <a href="https://www.nice.aeroport.fr/" target="_blank" class="timeline-link">
+            Stage découverte<br>Aéroport Nice Côte d’Azur
+          </a>
+          <div class="timeline-line"></div>
+          <div class="timeline-date">2019</div>
+        </div>
+        <div class="timeline-step">
+          <a href="https://www.renaultgroup.com/" target="_blank" class="timeline-link">
+            Stage découverte<br>Renault Software Labs
+          </a>
+          <div class="timeline-line"></div>
+          <div class="timeline-date">2020</div>
+        </div>
+        <div class="timeline-step">
+          <a href="https://mediatheque.lecannet.fr/Default/accueil.aspx" target="_blank" class="timeline-link">
+            Adjoint administratif<br>Médiathèque du Cannet
+          </a>
+          <div class="timeline-line"></div>
+          <div class="timeline-date">2023</div>
+        </div>
+        <div class="timeline-step">
+          <a href="https://www.ampere.cars/en/" target="_blank" class="timeline-link">
+            Stagiaire<br>Ampere
+          </a>
+          <div class="timeline-line"></div>
+          <div class="timeline-date">14 avril 2025 - Aujourd’hui</div>
+        </div>
+      </div>
     </section>
+
 
     <section id="projects">
-      <h2>Projets</h2>
+      <h2>Projets ISEP</h2>
       <ul>
-        <li><strong>Robotique :</strong> Projet RoboMaster (contrôle de robot, détection d'obstacles, interface graphique Scratch/Flask)</li>
-        <li><strong>Électronique :</strong> Création de circuits combinatoires et séquentiels sous Logisim (projet Kaprekar)</li>
-        <li><strong>Informatique :</strong> Développement en Python (systèmes de communication MQTT, bases de données SQLite)</li>
-        <li><strong>Communication :</strong> Dashboard de suivi en temps réel de robots connectés (interface Turtle/Tkinter)</li>
+        <li>Simulateur de gestion de parking en Python avec interface grpahique Tkinter</li>
+        <li>Jeu Tamagotchi en python avec interface graphique tkinter</li>
+        <li>Robotique : Codage du robomaster en python</li>
+        <li>Sonomètre numérique et analogique</li>
       </ul>
     </section>
 
-    <section id="skills">
-      <h2>Compétences</h2>
-      <ul>
-        <li>Bureautique avancée : Excel, Word, PowerPoint</li>
-        <li>Programmation : Python, HTML/CSS, bases ROS 2</li>
-        <li>Électronique numérique : circuits Logisim (combinatoire et séquentielle)</li>
-        <li>Communication orale : anglais public speaking, débats politiques (Euro Parlement)</li>
-        <li>Gestion de projets et organisation d’événements étudiants</li>
-      </ul>
-    </section>
+    <section id="technologies">
+        <h2>Technologies</h2>
+        <ul>
+          <li>Matlab, Simulink</li>
+          <li>Intel Quartus Prime</li>
+          <li>Windows - Ubuntu (Linux)</li>
+          <li>bases Ros2 & bases C++</li>
+          <li>Python, tkinter, github, vscode</li>
+          <li>HTML - CSS</li>
+          <li>Microsoft Office (PowerPoint, Word, Excel)</li>
+          <li>GeoGebra, Regressi</li>
+          <li>Logisim</li>
+          <li>Canva</li>
+        </ul>
+      </section> 
+    
+      <section id="languages">
+        <h2>Langues</h2>
+        <ul>
+          <li>Français (langue maternelle) 
+            <img src="france_drapeau.png" alt="Drapeau français" class="flag">
+          </li>
+          <li>Anglais (niveau B2) 
+            <img src="english_flag.png" alt="Drapeau anglais" class="flag">
+          </li>
+          <li>Espagnol (niveau B2) 
+            <img src="espagnol_photo.png" alt="Drapeau espagnol" class="flag">
+          </li>
+        </ul>
+      </section>
+    
+      <section id="countries" class="countries-section">
+        <h2>Pays visités</h2>
+        <div class="countries-content">
+          <ul>
+            <li>France (Cannes, Avignon, Antibes, Biarritz, Paris, Ajaccio)</li>
+            <li>Italie (Florence, Pise, Bordighera)</li>
+            <li>Espagne (Majorque)</li>
+            <li>Allemagne (Rust)</li>
+            <li>Royaume-Uni (London)</li>
+            <li>Monaco (Monaco)</li>
+            <li>Maroc (Marrakech, Essaouira)</li>
+          </ul>
+          <div class="map-container">
+            <img src="europe_map.png" alt="Carte Europe" class="europe-map">
+            <!-- Pins positionnés en CSS -->
+            <div class="pin france"></div>
+            <div class="pin italie"></div>
+            <div class="pin espagne"></div>
+            <div class="pin allemagne"></div>
+            <div class="pin uk"></div>
+            <div class="pin monaco"></div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="Sports">
+        <h2>Sports pratiqués</h2>
+        <ul>
+          <li></li>
+          <li>Atlétisme - AC Cannes</li>
+          <li>Ski - ESF - niveau étoile de bronze</li>
+          <li>Natation - CN Cannes</li>
+          <li>Judo - JC Cannes</li>
+        </ul>
+      </section>    
+
+      <section id="center interest">
+        <h2>Centre d'intérets</h2>
+        <ul>
+          <li></li>
+          <li>Ski : Courchevel, Val d'Allos, Valberg, Les Saisies, Serre Chevalier, Auron, Isola 2000, Alpe d'Huez,  </li>
+          <li>Politique</li>
+          <li>Mode</li>
+          <li>Cinématographie</li>
+          <li>Photographie</li>
+        </ul>
+      </section> 
 
     <section id="contact">
       <h2>Contact</h2>
-      <p>📧 Email : <a href="mailto:alexandre.sintes@example.com">alexandre.sintes@example.com</a></p>
-      <p>🔗 LinkedIn : <a href="https://linkedin.com/" target="_blank">Mon LinkedIn</a></p>
-      <p>🔗 Twitter (Ex-X) : <a href="https://x.com/alex_sts70154" target="_blank">Mon Twitter</a></p>      <!-- twitter -->
-      <p>🔗 Github : <a href="https://github.com/alexandresintes" target="_blank">Mon Github</a></p>   <!-- github -->
+      <p>📧 Email : <a href="mailto:alexandre.sintes@eleve.isep.fr">alexandre.sintes@eleve.isep.fr</a></p>
+      <p>🔗 LinkedIn : <a href="https://linkedin.com/in/alexandre-sintes" target="_blank">linkedin.com/in/alexandre-sintes</a></p>
+      <p>💻 GitHub : <a href="https://github.com/alexandresintes" target="_blank">github.com/alexandresintes</a></p>
+      <p>📱 Twitter : <a href="https://x.com/alex_sts70154" target="_blank">@alex_sts70154</a></p>
+      <p>📱 Téléphone : 07 87 03 43 53<p>
     </section>
+          
+    <div class="concours">
+        <img src="puisance_alpha.png" alt="Concours puissance alpha" class="concours">
+      </div>
+
+    <section id="education">
+      
+      <div class="logos">
+        <img src="images/logo_isep.png" alt="Logo ISEP" class="school-logo">
+        <img src="images/logostanislascannes.png" alt="Logo Stanislas Cannes" class="school-logo">
+        <img src="images/logo_lochabair.jpeg" alt="Logo Lochabair" class="school-logo">
+      </div>
   </main>
 
+  <script>
+    window.addEventListener("DOMContentLoaded", () => {
+      const toggleTheme = document.getElementById('toggle-theme');
+      toggleTheme.addEventListener('click', () => {
+        document.body.classList.toggle('light-mode');
+      });
+
+      document.querySelectorAll('.color-picker span').forEach(el => {
+        el.addEventListener('click', () => {
+          const color = el.dataset.color;
+          document.documentElement.style.setProperty('--accent-color', color);
+          document.querySelectorAll('.color-picker span').forEach(s => s.classList.remove('active'));
+          el.classList.add('active');
+        });
+      });
+    });
+  </script>
   <footer>
     <p>© 2025 Alexandre Sintes. Tous droits réservés.</p>
   </footer>
 </body>
 </html>
-
-
-
-
-
